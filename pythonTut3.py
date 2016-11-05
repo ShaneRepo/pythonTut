@@ -8,7 +8,7 @@ age = eval(input("Enter age: "))
 # If either condition is true then true
 # Convert a true condition into false
 # If age is both greater than or equal to 1 and less than or equal to 18 important
-if (age >= 1) and (ang <= 15):
+if (age >= 1) and (age <= 15):
     print("Important Birthday")
 # If age is either 21 or 50 important
 elif (age == 21) or (age == 50):
